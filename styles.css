@@ -33,12 +33,19 @@ figure, blockquote, dl, dd {
 
 /* Set core body defaults */
 body {
+  max-width: 1440px;
   min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   line-height: 1.5;
   font-family: "Barlow Semi Condensed", serif;
   font-weight: 500;
   font-size: 13px;
   background-color: var(--light-grayish-blue);
+  margin: auto;
+
 }
 
 /* Set shorter line heights on headings and interactive elements */
